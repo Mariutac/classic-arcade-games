@@ -285,3 +285,10 @@ tr{
     font-size: 10px;
    color: yellow; 
 }
+
+.linkgh a{
+    color: orange;
+    opacity: 0.5;
+    font-size: 10px;
+    margin-left: 650px;
+}
