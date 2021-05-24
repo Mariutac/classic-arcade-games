@@ -1,0 +1,287 @@
+@import url(https://fonts.googleapis.com/css?family=Akronim);
+@import url(https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap);
+body{
+     font-family: 'Press Start 2P', cursive;
+    background: transparent;   
+    position: absolute;
+     background: url('css/bun.gif'); 
+    background-size: cover;
+}
+}
+
+.continut {
+    
+    position: fixed;
+    background: transparent;  
+}
+
+header{
+    position: relative;
+    background: transparent;;
+    will-change: none;
+    
+}
+
+header::after{
+    content: "";
+    display:table;
+    clear: both;
+    background: transparent;
+}
+
+.logo{
+  margin-left: 100px;
+}
+
+
+nav{
+    float:right;
+    margin: 20px;
+    background: transparent;
+    
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    word-spacing: 5x;
+    list-style: none;  
+    background: transparent;
+    
+}
+
+nav li{
+    position: absolute;
+    display: inline-block;
+    margin-right: 0;
+    margin-left: 122px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    position: relative;
+    background: transparent;
+}
+
+nav a{
+    color: #F7F069;
+    text-transform: uppercase;  
+    font-size: 15px;
+    position: relative;
+    word-spacing: 15px;
+}
+
+nav a:hover{
+    color: #C60D05;
+        
+}
+nav a::before{
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 100%;
+    background:linear-gradient(to left, yellow, red);    
+    position: absolute;
+    bottom:0;
+    width:0;
+    
+}
+
+nav a:hover::before{
+   
+    width: 100%;
+}
+
+hr{
+  background: linear-gradient(to right, white, yellow,orange);
+  opacity: 40%;
+  width: 100%;
+    margin-left: 1px;
+    margin-right: 1px;
+    
+}
+
+.rand{
+  position: absolute;
+  left: 0;
+  bottom:650px;
+  color: orange;
+  z-index:10;
+  font-size:60px;
+  font-family: Helvetica, Verdana, sans-serif;
+  opacity:0.5;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.video {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+      
+}
+
+.text { 
+  position: absolute;
+  top:125px;
+  color: #E3D800;
+  font-size:16px;
+  font-family: 'Press Start 2P', cursive;
+  opacity:0.8;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  word-spacing: 5px;
+  line-height: 30px;
+
+}
+ah{
+  font-size:25px;
+  font-family: 'Press Start 2P', cursive;
+  color:yellow;
+    text-decoration-line: underline;
+    
+}
+    .fire {
+    position: absolute;
+	width: 80%;
+    margin: 0 auto;
+    top:300px;
+    left:150px;
+	font-family: 'Akronim';
+    text-align: center;
+	
+}
+.fire:before {
+ 
+	content: '';
+	display: block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.Blazing {
+    
+	display: block;
+    color: whitesmoke;
+    opacity: 0.85;
+    font-size: 120px;
+	line-height: 50px;
+	min-width: 50px;
+	outline: none;
+	vertical-align: middle;
+    
+	text-shadow:
+        0 3px 20px red,
+        0 0 20px red,
+		0 0 10px orange,
+		4px -5px 6px yellow,
+		-4px -10px 10px yellow,
+		0 -10px 30px yellow;
+	animation: 3s Blazing infinite alternate linear;
+}
+
+@keyframes Blazing {
+	0%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+		0 0 15px orange,
+		0 0 0 yellow,
+		0 0 10px yellow,
+		-2px -5px 5px yellow,
+		4px -10px 10px yellow; }
+	25%   { text-shadow: 0 3px 20px red, 0 0 30px red,
+		0 0 20px orange,
+		0 0 5px yellow,
+		-2px -5px 5px yellow,
+		3px -10px 10px yellow,
+		-4px -15px 20px yellow; }
+	50%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+		0 -5px 10px orange,
+		-2px -5px 5px yellow,
+		3px -10px 10px yellow,
+		-4px -15px 20px yellow,
+		2px -20px 30px rgba(255,255,0,0.5); }
+	75%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+		0 -5px 10px orange,
+		3px -5px 5px yellow,
+		-4px -10px 10px yellow,
+		2px -20px 30px rgba(255,255,0,0.5),
+		0px -25px 40px rgba(255,255,0,0)}
+	100%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+		0 0 10px orange,
+		0 0 0 yellow,
+		0 0 5px yellow,
+		-2px -5px 5px yellow,
+		4px -10px 10px yellow; }
+}
+.gallery{
+    background-color: transparent;
+}
+.poza{
+    width: 200px;
+    height: 350px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    margin-top: 150px;
+    margin-left: 50px;
+    background-position: center;
+    transition: transform 0.5s;
+}
+
+.poza1{
+    background-image: url(PacMan.png);
+}.poza2{
+    background-image: url(DonkeyKong_HP.jpg);
+}.poza3{
+    background-image: url(space.png);
+}.poza4{
+    background-image: url(1942.jpg);
+}.poza5{
+    background-image: url(dig.jpg);
+
+}
+.poza:hover{
+    transform: translateY(-10px);
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+
+  text-align: center;
+  text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-facebook {
+    margin-left: 240px;
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  color: white;
+}
+
+.tabel {
+    background-color: transparent;
+}
+
+tr{
+    font-size: 10px;
+   color: yellow; 
+}
